@@ -1,0 +1,154 @@
+﻿/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffdc64;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+h1.page-header {
+    background-color: #f57c00; /* Orange */
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Form Styles */
+form {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+    form .form-label {
+        font-weight: bold;
+        color: #333;
+    }
+
+    form .form-control {
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    form .form-check-label {
+        font-size: 1rem;
+        color: #333;
+    }
+
+/* Button Styles */
+button, .btn {
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    button:hover, .btn:hover {
+        transform: scale(1.05);
+    }
+
+    button.btn-primary {
+        background-color: #f57c00;
+        border: none;
+    }
+
+        button.btn-primary:hover {
+            background-color: #e65c00;
+        }
+
+    button.btn-success {
+        background-color: #388e3c;
+        border: none;
+    }
+
+        button.btn-success:hover {
+            background-color: #2e7d32;
+        }
+
+    button.btn-warning {
+        background-color: #fbc02d;
+        border: none;
+    }
+
+        button.btn-warning:hover {
+            background-color: #f9a825;
+        }
+
+/* Toast Notification Styles */
+.toast-container {
+    z-index: 1050;
+}
+
+.toast-body {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Total Price Display */
+#totalPrice {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #388e3c;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.topping-img {
+    height: 200px; /* Fixed height */
+    width: 100%; /* Full width of the card */
+    object-fit: cover; /* Maintain aspect ratio and crop if needed */
+    border-radius: 8px; /* Slightly rounded corners */
+}
+.cardmaster {
+    height: 250px; /* Fixed height */
+    width: 200px; /* Full width of the card */
+    object-fit: cover; /* Maintain aspect ratio and crop if needed */
+    border-radius: 8px;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 .page-header {
+        font-size: 1.5rem;
+    }
+
+    form {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    button, .btn {
+        font-size: 0.9rem;
+    }
+
+    #totalPrice {
+        font-size: 1.2rem;
+    }
+}
+
+.headerstyle {
+    background-color: rgb(255, 165, 0);
+    border-radius: 10px;
+}
